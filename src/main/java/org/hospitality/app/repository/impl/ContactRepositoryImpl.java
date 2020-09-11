@@ -27,6 +27,12 @@ public class ContactRepositoryImpl implements ContactRepository {
         //return null;
     }
 
+//    @Override
+//    public Set< Contact > getAllStartingWithA() {
+//        //this.repository.getAllStartingWithA();
+//        return null;
+//    }
+
     @Override
     public Contact create(Contact contact) {
         this.contactDB.add(contact);

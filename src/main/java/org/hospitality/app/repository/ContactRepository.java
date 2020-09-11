@@ -11,4 +11,6 @@ import java.util.Set;
 
 public interface ContactRepository extends IRepository < Contact, String> {
     Set<Contact> getAll();
+
+    //Set<Contact> getAllStartingWithA();
 }
